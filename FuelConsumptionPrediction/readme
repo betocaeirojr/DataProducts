@@ -1,3 +1,27 @@
 Read Me First
 
-This project is part of the evalution of the Data Science Specialization, in the Developing Data Product Couses 
+This project is part of the evalution of the Data Science Specialization, in the Developing Data Product Couses.
+
+Basic Algorithm
+=================
+This ShinyApp is very simple.
+1st. We use the 'mtcars' dataset to create a regression model considering the variable "mpg" as the outcome and the variables "cyl", "am", "hp", "gear", "wt" as predictors. 
+
+2nd. We use the user inputed value (in the panel) to create a new dataset that will be used for prediction.
+
+3rd. We use the "predict" function to predict the fuel consumption as modelled by the regression model at step 2.
+
+4th. For the sake of curiosity, we plot the pairs plot, from the original dataset, removing the variables not used in the model.
+
+User Input Values
+=================
+The user is supposed to input the following values:
+a. number of cylinders of his/her car
+b. the car weight (in lbs)
+c. the number of gears
+d. the HP information
+e. whether the car has a manual or a automatic transmission
+
+Outputed Value
+==============
+The predicted fuel consumption in miles per gallon.
